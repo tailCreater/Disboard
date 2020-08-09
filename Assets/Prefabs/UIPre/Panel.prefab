@@ -1,0 +1,766 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2031121509428267756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 365298495617315836}
+  - component: {fileID: 4418507648809599818}
+  m_Layer: 0
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &365298495617315836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031121509428267756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4418507648809599818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031121509428267756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: ecc276322134991418f5d4a0f8765fc4, type: 2}
+  mSprites:
+  - name: Accept_Icon
+    x: 1554
+    y: 1043
+    width: 34
+    height: 34
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Armor_Icon
+    x: 1485
+    y: 976
+    width: 68
+    height: 101
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 5
+    paddingTop: 19
+    paddingBottom: 12
+  - name: Background_Bar
+    x: 827
+    y: 116
+    width: 545
+    height: 66
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Blue_Ribbon
+    x: 1047
+    y: 69
+    width: 119
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Boots_Icon
+    x: 827
+    y: 325
+    width: 54
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button
+    x: 1296
+    y: 778
+    width: 272
+    height: 55
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonShadow
+    x: 1296
+    y: 834
+    width: 272
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: Characer_Panel
+    x: 352
+    y: 389
+    width: 585
+    height: 525
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 33
+    paddingRight: 32
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character_Bar
+    x: 352
+    y: 150
+    width: 474
+    height: 238
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 26
+    paddingRight: 0
+    paddingTop: 70
+    paddingBottom: 92
+  - name: Character_Box
+    x: 2500
+    y: 787
+    width: 404
+    height: 238
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CharacterDemo
+    x: 2500
+    y: 1026
+    width: 475
+    height: 200
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 25
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close_Icon
+    x: 2465
+    y: 1192
+    width: 34
+    height: 34
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Coin_Icon
+    x: 1542
+    y: 78
+    width: 41
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Comleted_Icon
+    x: 1554
+    y: 1012
+    width: 29
+    height: 30
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Crystal_Icon
+    x: 1287
+    y: 44
+    width: 75
+    height: 71
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Decoration
+    x: 938
+    y: 183
+    width: 650
+    height: 487
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Eq_Slot
+    x: 2090
+    y: 664
+    width: 67
+    height: 67
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Health
+    x: 844
+    y: 69
+    width: 202
+    height: 46
+    borderLeft: 15
+    borderRight: 15
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: -2
+    paddingRight: -2
+    paddingTop: 0
+    paddingBottom: 0
+  - name: HealthMana_Cover
+    x: 2240
+    y: 1149
+    width: 253
+    height: 30
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Helmet_Icon
+    x: 827
+    y: 261
+    width: 59
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Inventory_Box
+    x: 938
+    y: 1566
+    width: 641
+    height: 482
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 4
+    paddingTop: 10
+    paddingBottom: 8
+  - name: Inventory_Slot
+    x: 1485
+    y: 899
+    width: 78
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Inventory_Slots
+    x: 2165
+    y: 481
+    width: 513
+    height: 250
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: InventoryDemo
+    x: 1589
+    y: 200
+    width: 575
+    height: 430
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Loading_Bar
+    x: 938
+    y: 1078
+    width: 650
+    height: 487
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 4
+    paddingBottom: 9
+  - name: LoadingDemo
+    x: 1589
+    y: 1147
+    width: 650
+    height: 486
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Login_Bar
+    x: 938
+    y: 671
+    width: 357
+    height: 406
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 166
+    paddingRight: 127
+    paddingTop: 40
+    paddingBottom: 54
+  - name: Login_Box
+    x: 2400
+    y: 1642
+    width: 357
+    height: 406
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: -17
+    paddingRight: -30
+    paddingTop: -18
+    paddingBottom: -20
+  - name: LoginButton
+    x: 1296
+    y: 716
+    width: 168
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LoginButton_Hover
+    x: 1373
+    y: 59
+    width: 168
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LoginButton_Pressed
+    x: 1373
+    y: 121
+    width: 168
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LoginDemo
+    x: 2240
+    y: 1227
+    width: 349
+    height: 406
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LoginPassword_Box
+    x: 2240
+    y: 1180
+    width: 224
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Mana
+    x: 1465
+    y: 731
+    width: 123
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Menu_Bar
+    x: 1580
+    y: 1634
+    width: 409
+    height: 414
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 126
+    paddingRight: 115
+    paddingTop: 43
+    paddingBottom: 43
+  - name: Menu_Box
+    x: 1985
+    y: 1634
+    width: 406
+    height: 414
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: -55
+    paddingRight: -42
+    paddingTop: -53
+    paddingBottom: -53
+  - name: MenuDemo
+    x: 2090
+    y: 732
+    width: 409
+    height: 414
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Minus_Icon
+    x: 1564
+    y: 966
+    width: 21
+    height: 21
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: -1
+    paddingRight: -1
+    paddingTop: -1
+    paddingBottom: -1
+  - name: Money_Bar
+    x: 1296
+    y: 684
+    width: 156
+    height: 31
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Nickname_Slot
+    x: 1363
+    y: 28
+    width: 149
+    height: 30
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Player_Frame
+    x: 1296
+    y: 889
+    width: 188
+    height: 188
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Plus_Icon
+    x: 1564
+    y: 944
+    width: 21
+    height: 21
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: -1
+    paddingRight: -1
+    paddingTop: -1
+    paddingBottom: -1
+  - name: Progress_Bar
+    x: 352
+    y: 90
+    width: 491
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Progress_Slot
+    x: 1554
+    y: 988
+    width: 23
+    height: 23
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Quest_Box
+    x: 352
+    y: 1441
+    width: 585
+    height: 607
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: -49
+    paddingRight: -51
+    paddingTop: -50
+    paddingBottom: -53
+  - name: Quest_Panel
+    x: 352
+    y: 915
+    width: 585
+    height: 525
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 33
+    paddingRight: 32
+    paddingTop: 0
+    paddingBottom: 0
+  - name: QuestDemo
+    x: 1589
+    y: 631
+    width: 500
+    height: 515
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Red_Ribbon
+    x: 1167
+    y: 69
+    width: 119
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_Slot
+    x: 882
+    y: 335
+    width: 54
+    height: 42
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shield_Icon
+    x: 1542
+    y: 119
+    width: 44
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Simple_Fantasy_GUI_ALL
+    x: 0
+    y: 0
+    width: 351
+    height: 2048
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Stats_Box
+    x: 1589
+    y: 43
+    width: 459
+    height: 156
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Sword_Icon
+    x: 1513
+    y: 2
+    width: 57
+    height: 56
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 3
+    paddingTop: 3
+    paddingBottom: 4
+  - name: Title_Box
+    x: 2500
+    y: 739
+    width: 535
+    height: 47
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Violet_Ribbon
+    x: 1465
+    y: 684
+    width: 119
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

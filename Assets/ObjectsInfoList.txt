@@ -1,0 +1,10 @@
+﻿1001,血瓶,hp,Drug,50,0,20,50,0
+1002,蓝瓶,mp,Drug,0,20,20,50,0
+2001,长剑,sword,Equipment,20,0,200,1000,RightHand
+2002,盾牌,shield,Equipment,0,10,200,1000,LeftHand
+2003,头盔,helmets,Equipment,0,5,100,500,Head
+2004,皮甲,armor,Equipment,0,5,100,500,Armor
+2005,铁甲,armor_icon,Equipment,0,10,200,1000,Armor
+2006,腿甲,pants,Equipment,0,5,100,500,Leg
+3001,蓝水晶,gem,Mat,0
+3002,通行证,scroll,Mat,0
